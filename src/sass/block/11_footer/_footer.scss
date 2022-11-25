@@ -1,0 +1,86 @@
+.footer {
+    height: 201px;
+    background-color: #25333c;
+    padding-top: 24px;
+    &__grid {
+        display: flex;
+    }
+    &__flexbox-1 {
+        margin: 0 auto;
+        display: flex;
+        width: 961px;
+        height: 71px;
+        justify-content: space-between;
+    }
+    &__text {
+        padding-top: 30px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+    }
+    &__telefon {
+        margin-top: 15px;
+        margin-left: 43px;
+    }
+    &__frage {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: right;
+    }
+    &__nummer {
+        a {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 19px;
+            text-align: right;
+            text-decoration: none;
+        }
+    }
+    &__btn-tel {
+        margin-left: 19px;
+        margin-top: 20px;
+    }
+    &__flexbox-2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 57px;
+
+    }
+    &__jahr {
+        opacity: 0.6;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+    }
+    &__link {
+        color: $main-color;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+        text-decoration: underline;
+        padding-right: 60px;
+    }
+    &__seite {
+        display: flex;
+        justify-content: space-between;
+        width: 138px;
+    }
+    &__seitetext {
+        opacity: 0.6; 
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: left;
+    }
+    &__seiteimg {
+        margin-top: -10px;
+    }
+}

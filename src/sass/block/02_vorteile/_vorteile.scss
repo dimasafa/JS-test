@@ -1,0 +1,45 @@
+.vorteile {
+    background: url('../../../img/02/bg.jpg') center center/cover no-repeat;
+    min-height: 590px;
+    &__title {
+        padding-top: 57px;
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__grid {
+        margin-top: 31px;
+        display: grid;
+        grid-template-columns: 488px 508px;
+        grid-template-rows: repeat(3, 65px) 129px;
+        column-gap: 100px;
+        row-gap: 36px;
+    }
+    &__gridbox {
+        display: flex;
+        img {
+            max-width: 65px;
+            max-height: 65px;
+        }
+    }
+    &__boxtext {
+        padding-left: 20px;
+    }
+    &__textheader {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    &__textdescr {
+        padding-top: 8px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+    }
+}

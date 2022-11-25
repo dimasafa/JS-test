@@ -1,0 +1,23 @@
+.btns {
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: $main-color;
+
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    &__btn-rech {
+        display: block;
+        margin: 0 auto;
+        margin-top: 39px;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}

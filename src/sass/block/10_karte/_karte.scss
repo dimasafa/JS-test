@@ -1,0 +1,46 @@
+.karte {
+    min-height: 500px;
+    width: 1920px;
+    position: relative;
+    iframe {
+        height: 500px;
+        width: 1920px;
+    }
+    &__img {
+        position: absolute;
+        top: 200px;
+        left: 925px;
+    }
+    &__untertext {
+        position: absolute;
+        top: 150px;
+        left: 990px;
+    }
+    &__adress {
+        position: absolute;
+        top: 177px;
+        left: 1045px;
+        width: 227px;
+        height: 103px;
+    }
+    &__title {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+    &__text {
+        padding-top: 10px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left;
+    }
+    a {
+        color: $main-color;
+        font-weight: 300;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+}

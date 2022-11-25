@@ -1,0 +1,57 @@
+.arbeit {
+    max-height: 619px;
+    margin-bottom: 57px;
+    &__title {
+        margin-top: 51px;
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__line {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+    }
+    &__subtitle {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+        width: 879px;
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__flex {
+        display: flex;
+        margin-top: 37px;
+        width: 1139px;
+        justify-content: space-between;
+    }
+    &__flexbox {
+        width: 360px;
+        height: 368px;
+    }
+    &__boxheader {
+        padding-top: 28px;
+        color: $main-color;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+    }
+    &__boxtext {
+        padding-top: 8px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: justify;
+    }
+}

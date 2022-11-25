@@ -1,0 +1,77 @@
+.frage {
+    min-height: 438px;
+    background: url('../../../img/10/bg.jpg') center center/cover no-repeat;
+    padding-top: 62px;
+    &__box {
+        margin: 0 auto;
+        width: 896px;
+        height: 297px;
+        background-color: rgba(#fff, 0.7);
+    }
+    &__header {
+        width: 896px;
+        height: 68px;
+        background-color: rgba(#25333c, 1.0); 
+    }
+    &__title {
+        padding-top: 20px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__inputbox {
+        margin: 0 auto;
+        margin-top: 18px;
+        width: 816px;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 268px;
+            border: #b8c6cf solid 0.1px;
+            border-radius: 30px;
+            padding-left: 28px;
+
+            color: #101010;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: left;
+        }
+    }
+    textarea {
+        display: block;
+        margin: 0 auto;
+        margin-top: 8px;
+        width: 813px;
+        height: 71px;
+        border: #b8c6cf solid 0.1px;
+        border-radius: 10px;
+        resize: none;
+        padding: 18px 0 0 25px;
+
+        color: #616467;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 13px;
+        text-align: left;
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+        width: 180px;
+
+    } 
+}
